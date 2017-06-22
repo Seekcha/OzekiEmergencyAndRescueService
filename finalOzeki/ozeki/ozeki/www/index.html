@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title></title>
+
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" type="text/css" href="css/ratchet.min.css" />
+
+    
+
+</head>
+
+<body>
+
+    <header class="bar bar-nav">
+        
+        <h1 class="title">Emergency And Rescue Services</h1>
+    </header>
+    <div class="content">
+        <div class="content-padded">
+            <form>
+                <input id="numberTxt" placeholder="Enter mobile number" value="+23057510283" type="tel" />
+                <textarea id="messageTxt" placeholder="Enter message"></textarea>
+                <input type="button" class="btn btn-positive btn-primary" onclick="app.sendSms()" value="Send SMS" />
+            </form>
+        </div>
+    </div>
+    
+
+    <div class="bar bar-standard bar-footer">
+        
+        <h1 class="title"><img src="images/icon.png" />&nbsp;&nbsp; Sungkur Seekcha &copy;</h1>
+    </div>
+
+    <script src="cordova.js"></script>
+    <script src="scripts/index.js"></script>
+
+</body>
+
+</html>
